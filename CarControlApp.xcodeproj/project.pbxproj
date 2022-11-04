@@ -14,6 +14,9 @@
 		234EF4212912AE50003AC312 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234EF4202912AE50003AC312 /* Home.swift */; };
 		234EF4232912B265003AC312 /* SmallIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234EF4222912B265003AC312 /* SmallIconButton.swift */; };
 		234EF4252912BA10003AC312 /* SmallIconButtonWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234EF4242912BA10003AC312 /* SmallIconButtonWithText.swift */; };
+		234EF4272912BEAC003AC312 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234EF4262912BEAC003AC312 /* Controls.swift */; };
+		234EF4292912BF54003AC312 /* ControlsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234EF4282912BF54003AC312 /* ControlsViewModel.swift */; };
+		2354C72429150D9F0027670D /* QuickControlSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2354C72329150D9F0027670D /* QuickControlSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		234EF4202912AE50003AC312 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		234EF4222912B265003AC312 /* SmallIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallIconButton.swift; sourceTree = "<group>"; };
 		234EF4242912BA10003AC312 /* SmallIconButtonWithText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallIconButtonWithText.swift; sourceTree = "<group>"; };
+		234EF4262912BEAC003AC312 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		234EF4282912BF54003AC312 /* ControlsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsViewModel.swift; sourceTree = "<group>"; };
+		2354C72329150D9F0027670D /* QuickControlSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickControlSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		234EF41D2912AE0E003AC312 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				234EF4282912BF54003AC312 /* ControlsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -97,6 +104,7 @@
 		234EF41E2912AE11003AC312 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				234EF4262912BEAC003AC312 /* Controls.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 			children = (
 				234EF4222912B265003AC312 /* SmallIconButton.swift */,
 				234EF4242912BA10003AC312 /* SmallIconButtonWithText.swift */,
+				2354C72329150D9F0027670D /* QuickControlSection.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -181,10 +190,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				234EF4102912ADA0003AC312 /* ContentView.swift in Sources */,
+				234EF4272912BEAC003AC312 /* Controls.swift in Sources */,
 				234EF4212912AE50003AC312 /* Home.swift in Sources */,
+				234EF4292912BF54003AC312 /* ControlsViewModel.swift in Sources */,
 				234EF4232912B265003AC312 /* SmallIconButton.swift in Sources */,
 				234EF40E2912ADA0003AC312 /* CarControlAppApp.swift in Sources */,
 				234EF4252912BA10003AC312 /* SmallIconButtonWithText.swift in Sources */,
+				2354C72429150D9F0027670D /* QuickControlSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

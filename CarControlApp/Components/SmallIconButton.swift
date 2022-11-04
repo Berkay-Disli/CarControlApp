@@ -11,7 +11,8 @@ struct SmallIconButton: View {
     let iconName: String
     var body: some View {
         Image(systemName: iconName)
-            .padding(12)
+            //.padding(12)
+            .frame(width: 53, height: 53)
             .font(.title3)
             .foregroundColor(.white)
             .background(.gray.opacity(0.2))
@@ -21,6 +22,6 @@ struct SmallIconButton: View {
 
 struct SmallIconButton_Previews: PreviewProvider {
     static var previews: some View {
-        SmallIconButton(iconName: "lock.fill")
+        Home()
     }
 }

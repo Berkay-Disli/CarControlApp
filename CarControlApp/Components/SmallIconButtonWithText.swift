@@ -13,17 +13,18 @@ struct SmallIconButtonWithText: View {
     var body: some View {
         VStack {
             SmallIconButton(iconName: iconName)
-            Text(text)
+            Text(text.capitalized)
                 .font(.system(size: 15))
                 .fontWeight(.medium)
                 .multilineTextAlignment(.center)
                 .frame(width: 65)
+                
         }
     }
 }
 
 struct SmallIconButtonWithText_Previews: PreviewProvider {
     static var previews: some View {
-        SmallIconButtonWithText(text: "AHsasjd", iconName: "play.fill")
+        Home()
     }
 }
